@@ -73,6 +73,11 @@ const PORTRAITS_LIB = [
     title: '',
   },
   {
+    src: './img/p_logan',
+    mode: 0,
+    title: '',
+  },
+  {
     src: './img/p_brenda',
     mode: 2,
     title: '',
