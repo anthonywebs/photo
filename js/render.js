@@ -359,9 +359,10 @@ const renderLanding = (skipIntro = false) => {
   document.getElementById('js-main').style.display = 'none';
   
   SLIDE_LIST.sort((a, b) => {
-    const aRand = Math.random() + a.weight/100;
-    const bRand = Math.random() + b.weight/100;
-    return bRand - aRand;
+    return Math.random() - 0.5;
+    // const aRand = Math.random() + a.weight/100;
+    // const bRand = Math.random() + b.weight/100;
+    // return bRand - aRand;
   });
 
   document.getElementById('js-img-0').style.height = `${getHeight()}px`;
