@@ -48,6 +48,10 @@ const SLIDE_LIST = [
     src: './img/m9',
     weight: 0,    
   },
+  {
+    src: './img/m10',
+    weight: 0,    
+  },
   // {
   //   src: './img/m14',
   //   weight: 0,    
